@@ -54,6 +54,20 @@ devices, when vendor-specific tooling is required, it may fail without
 specifying the password via `--old-password` (unless it's still the device
 default).
 
+## Installing
+
+The easiest way to install is with gem:
+
+```shell
+gem install setup_oob
+```
+
+You can, alternatively simply run this from the repo:
+
+```shell
+./bin/setup-oob <options>
+```
+
 ## SMC Licensing
 
 Setup OOB can "activate" SMC systems for you. Automating this can be a bit
