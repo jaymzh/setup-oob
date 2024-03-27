@@ -6,9 +6,9 @@ On your checkout:
     # create a pull request and merge it
 
 * Add and push a tag:
-    git tag -a v0.0.X -m 'version 0.0.X'
+    git tag -s -a v0.0.X -m 'version 0.0.X'
     git push upstream --tags
 
 * Build and push a release:
-    gem build taste_tester.gemspec
-    gem push taste_tester-0.0.X.gem
+    gem build setup-oob.gemspec
+    gem push setup_oob-0.0.X.gem
