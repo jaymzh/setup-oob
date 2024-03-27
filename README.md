@@ -1,6 +1,6 @@
 # Setup OOB
 
-[![Continuous Integration](https://github.com/vicariousinc/setup-oob/workflows/Continuous%20Integration/badge.svg)](https://github.com/vicariousinc/setup-oob/actions?query=workflow%3AContinuous%20Integration)
+[![Continuous Integration](https://github.com/jaymzh/setup-oob/workflows/Continuous%20Integration/badge.svg)](https://github.com/jaymzh/setup-oob/actions?query=workflow%3AContinuous%20Integration)
 
 *NOTE*: This is a fork of
 [viariousinc/setup-oob](https://github.com/vicariousinc/setup-oob) which is
