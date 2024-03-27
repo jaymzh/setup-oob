@@ -142,7 +142,7 @@ class SMCCommands
       en = out[0] == 1
       # when you check if NTP is enabled, a bunch of extra bytes
       # are passed back that MUST be passed in when enabling NTP
-      @_magic = out[1..-1]
+      @_magic = out[1..]
       logger.debug("NTP enabled: #{en}, magic bytes: #{@_magic}")
       en
     end

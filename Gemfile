@@ -3,5 +3,5 @@ source 'https://rubygems.org'
 gemspec
 
 group :test, :development do
-  gem 'rubocop', '~> 0.55.0'
+  gem 'rubocop', '~> 1.62'
 end

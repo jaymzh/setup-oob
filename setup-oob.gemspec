@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-require_relative './lib/setup_oob/version'
+require_relative 'lib/setup_oob/version'
 
 Gem::Specification.new do |s|
   s.name = 'setup_oob'
@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/vicariousinc/setup-oob'
   s.platform = Gem::Platform::RUBY
   s.extra_rdoc_files = %w{README.md LICENSE CHANGELOG.md}
-  s.required_ruby_version = '>= 2.5.0'
+  s.required_ruby_version = '>= 3.0'
 
   s.bindir = %w{bin}
   s.executables = %w{setup-oob}
@@ -34,4 +34,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'ipaddress'
   s.add_dependency 'mixlib-shellout'
+  s.metadata['rubygems_mfa_required'] = 'true'
 end
