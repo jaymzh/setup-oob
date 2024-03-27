@@ -1,11 +1,7 @@
 # Setup OOB
 
-[![Continuous Integration](https://github.com/jaymzh/setup-oob/workflows/Continuous%20Integration/badge.svg)](https://github.com/jaymzh/setup-oob/actions?query=workflow%3AContinuous%20Integration)
-
-*NOTE*: This is a fork of
-[viariousinc/setup-oob](https://github.com/vicariousinc/setup-oob) which is
-defunct. This is now the official respository, feel free to send PRs or issues
-here.
+[![Lint](https://github.com/jaymzh/setup-oob/workflows/Lint/badge.svg)](https://github.com/jaymzh/setup-oob/actions?query=workflow%3ALint)
+[![DCO](https://github.com/jaymzh/setup-oob/workflows/DCO%20Check/badge.svg)](https://github.com/jaymzh/setup-oob/actions?query=workflow%3A%22DCO+Check%22)
 
 This is a utility for configuring out-of-band management systems from within
 the running (Linux) OS.
@@ -90,3 +86,10 @@ option.
 
 Setup OOB requires `ipmitool` at a minimum. For SMC hosts, that is the only
 requirement. For DRAC hosts, it also requires racadm.
+
+## History
+
+This is a fork of
+[viariousinc/setup-oob](https://github.com/vicariousinc/setup-oob) which is
+defunct. This is now the official respository, feel free to send PRs or issues
+here.
