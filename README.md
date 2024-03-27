@@ -2,6 +2,11 @@
 
 [![Continuous Integration](https://github.com/vicariousinc/setup-oob/workflows/Continuous%20Integration/badge.svg)](https://github.com/vicariousinc/setup-oob/actions?query=workflow%3AContinuous%20Integration)
 
+*NOTE*: This is a fork of
+[viariousinc/setup-oob](https://github.com/vicariousinc/setup-oob) which is
+defunct. This is now the official respository, feel free to send PRs or issues
+here.
+
 This is a utility for configuring out-of-band management systems from within
 the running (Linux) OS.
 
