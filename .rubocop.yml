@@ -1,7 +1,7 @@
 AllCops:
   # this version is based on the current requirements of FB cookbooks,
   # even though we are on a later version of Ruby
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 3.0
   NewCops: enable
 
 # Disabled rules
