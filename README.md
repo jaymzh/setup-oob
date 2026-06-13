@@ -1,7 +1,11 @@
 # Setup OOB
 
-[![Lint](https://github.com/jaymzh/setup-oob/actions/workflows/lint.yml/badge.svg)](https://github.com/jaymzh/setup-oob/actions/workflows/lint.yml)
-[![DCO Check](https://github.com/jaymzh/setup-oob/actions/workflows/dco.yml/badge.svg)](https://github.com/jaymzh/setup-oob/actions/workflows/dco.yml)
+[![Lint](
+https://github.com/jaymzh/setup-oob/actions/workflows/lint.yml/badge.svg
+)](https://github.com/jaymzh/setup-oob/actions/workflows/lint.yml)
+[![DCO Check](
+https://github.com/jaymzh/setup-oob/actions/workflows/dco.yml/badge.svg
+)](https://github.com/jaymzh/setup-oob/actions/workflows/dco.yml)
 
 This is a utility for configuring out-of-band management systems from within
 the running (Linux) OS.

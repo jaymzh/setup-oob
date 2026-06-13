@@ -174,13 +174,13 @@ class SMCCommands
   end
 
   class Networkmode < SMCCommandBase
-    private
-
     MODES = {
       :dedicated => 0x00,
       :shared => 0x01,
       :failover => 0x02,
     }.freeze
+
+    private
 
     include CommandMixins::Networkmode
 
