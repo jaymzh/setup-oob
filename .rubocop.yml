@@ -213,3 +213,6 @@ Style/OptionalBooleanParameter:
 # Chef does this by design all over
 Lint/ConstantDefinitionInBlock:
   Enabled: false
+
+Style/OneClassPerFile:
+  Enabled: false
