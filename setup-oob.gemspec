@@ -21,10 +21,10 @@ Gem::Specification.new do |s|
   s.description = 'Utility for configuring OOB devices from linux'
   s.license = 'Apache-2.0'
   s.authors = ['Phil Dibowitz']
-  s.homepage = 'https://github.com/vicariousinc/setup-oob'
+  s.homepage = 'https://github.com/jaymzh/setup-oob'
   s.platform = Gem::Platform::RUBY
   s.extra_rdoc_files = %w{README.md LICENSE CHANGELOG.md}
-  s.required_ruby_version = '>= 3.0'
+  s.required_ruby_version = '>= 3.3'
 
   s.bindir = %w{bin}
   s.executables = %w{setup-oob}

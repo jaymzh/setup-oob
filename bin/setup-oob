@@ -38,7 +38,7 @@ options = {
   :level => Logger::INFO,
   :host => 'localhost',
 }
-OptionParser.new do |opts|
+parser = OptionParser.new do |opts|
   opts.on(
     '-l', '--log-level LEVEL', String, 'Logging level. Defaults to "info"'
   ) do |l|
@@ -122,10 +122,14 @@ OptionParser.new do |opts|
     puts SetupOOB::VERSION
     exit
   end
-end.parse!
+end
+
+parser.parse!
 
 unless options[:type]
-  fail 'must specify type'
+  warn "ERROR: No type specified, please specify one with --type\n\n"
+  puts parse
+  exit(1)
 end
 
 puts "Configuring #{options[:host]}"
